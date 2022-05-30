@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div>
       <div className="box">
-         <div className="bell-icon">
+        <div className="bell-icon">
           <svg
             width="16"
             height="16"
@@ -78,7 +78,6 @@ const Header = () => {
                 stroke-linejoin="round"
               />
             </svg>
-            
           </div>
         </div>
       </div>
@@ -86,12 +85,10 @@ const Header = () => {
         <section className="deals-header">
           <div>
             <div className="deals-filter-dropdown">
-              
               <div className="filter">{Filter(20, 20)}</div>
               <div className="deals-dropdown divider">
-                <div className="deals-pipeline">General Pipeline
-                </div>
-                
+                <div className="deals-pipeline">General Pipeline</div>
+
                 <div className="dropdown"> {DropDown(20, 20)} </div>
               </div>
               <div className="alldeals-dropdown">

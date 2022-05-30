@@ -55,6 +55,30 @@ const item7 = {
 };
 const item8 = {
   id: v4(),
+  name: "DeviDurga",
+  price: "$26,000  •",
+  date: "Closing in 16 days",
+};
+const item9 = {
+  id: v4(),
+  name: "Deepika",
+  price: "$26,000  •",
+  date: "Closing in 16 days",
+};
+const item10 = {
+  id: v4(),
+  name: "Sathish",
+  price: "$26,000  •",
+  date: "Closing in 16 days",
+};
+const item11 = {
+  id: v4(),
+  name: "Aruna",
+  price: "$26,000  •",
+  date: "Closing in 16 days",
+};
+const item12 = {
+  id: v4(),
   name: "Beni",
   price: "$26,000  •",
   date: "Closing in 16 days",
@@ -66,26 +90,38 @@ function App() {
     New: {
       title: "New",
       items: [item1, item2],
-      amount: "$18,900  •" ,
-      value:"3 deals",
+      amount: "$18,900  •",
+      value: "3 deals",
     },
     Approved: {
       title: "Approved",
       items: [item3, item4],
       amount: "$18,900  •",
-      value:"3 deals",
+      value: "3 deals",
     },
-    Progress: {
-      title: "Progress",
+    FollowUp: {
+      title: "Follow Up",
       items: [item5, item6],
       amount: "$18,900  •",
-      value:"3 deals",
+      value: "3 deals",
     },
-    Meeting: {
-      title: "Meeting",
+    UnderReview: {
+      title: "Under Review",
       items: [item7, item8],
       amount: "$18,900  •",
-      value:"3 deals",
+      value: "3 deals",
+    },
+    Demo: {
+      title: "Demo",
+      items: [item9, item10],
+      amount: "$18,900  •",
+      value: "3 deals",
+    },
+    Navigation: {
+      title: "Navigation",
+      items: [item11, item12],
+      amount: "$18,900  •",
+      value: "3 deals",
     },
   });
 
@@ -136,8 +172,8 @@ function App() {
                       <div className="deals2">
                         <div className="title">{data.title}</div>
                         <div className="av">
-                        <div className="amount">{data.amount}</div>
-                        <div className="value">{data.value}</div>
+                          <div className="amount">{data.amount}</div>
+                          <div className="value">{data.value}</div>
                         </div>
                       </div>
                       <div>
@@ -178,15 +214,17 @@ function App() {
                                         <span className="name"> {el.name}</span>
                                         <span className="price">
                                           {" "}
-                                          {/* {el.price} • {el.date} */}
                                           <span>{el.price}</span>
-                                          <span className="date">{el.date}</span>
+                                          <span className="date">
+                                            {el.date}
+                                          </span>
                                         </span>
                                         <div className="container">
                                           <div className="deal-contact">
                                             {contacts.map((contact) => (
                                               <div className="contact-pic ">
-                                                <img className="contact-image"
+                                                <img
+                                                  className="contact-image"
                                                   src={Profile}
                                                   alt="profile"
                                                 ></img>

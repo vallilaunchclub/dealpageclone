@@ -25,13 +25,13 @@
   width: 300px;
   right: 60px;
   top: 140px;
-  flex: 1;
   height: 772px;
   padding: 3px;
-  border: 1px dashed #000000;
+  border: 1px dashed #000000; 
   border-radius: 8px;
   background-color: #fff;
   margin-top: 15px;
+  
 }
 
 .item {
@@ -40,10 +40,13 @@
   border: 1px solid white;
   padding: 5px;
   border-radius: 2px;
+  
 }
 
 .item.dragging {
-  background-color: white;
+background-color: white;
+
+
 }
 
 .deals-section {
@@ -58,6 +61,8 @@
   left: 0;
   top: 0;
   opacity: 1;
+  
+  
 }
 
 .ondraggable {
@@ -75,7 +80,7 @@
 
 .name {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 18px;
 }
 
@@ -143,12 +148,13 @@
   flex-direction: row;
 }
 
-.sort {
+ .sort { 
   left: 54.17%;
   right: 37.5%;
   top: 70.83%;
   bottom: 29%;
   color: gray;
+
 }
 
 .deals2 {
@@ -180,9 +186,9 @@
   height: 24px;
   left: 0px;
   margin-top: 3px;
-  /* border: 1px solid rgba(0.1, 0.1, 0.1, 0.1);  */
+  
   border: 2px solid rgba(0, 0, 0, 0.1);
-  /* border-width: 0.5px; */
+  
   border-radius: 100%;
   overflow: hidden;
   box-sizing: border-box;
@@ -192,14 +198,13 @@
   height: 23px;
 }
 .deal-contact {
-  /* border:2px solid green; */
   display: flex;
   gap: 5px;
 }
 .cardcheckbox {
   display: none;
   width: 15px;
-  height: 15px;
+  height: 20px;
   bottom: -75px;
   border-radius: 3px;
   margin-top: 10px;
