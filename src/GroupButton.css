@@ -1,0 +1,30 @@
+.group-button-container {
+  background: rgba(51, 188, 126, 0.12);
+  border-radius: 8px;
+  font-weight: 600;
+  color: #707070;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+  padding: 4px;
+  width: 92px;
+  height: 36px;
+  
+}
+
+.active{
+  background: #33bc7e;
+  border-radius: 5px #33bc7e;
+  font-weight: 600;
+  width: 36px;
+  height: 28px;
+  border-radius: 5px;
+  padding: 6px 10px;
+  color: #ffffff;
+  flex:none;
+  order:0;
+  flex-grow:0;
+}

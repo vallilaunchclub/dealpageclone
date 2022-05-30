@@ -1,0 +1,61 @@
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60px;
+}
+
+.side-nav--logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0px;
+}
+ img {
+  height: 35px;
+  width: 35px;
+}
+
+.side-nav--link {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-item {
+  display: flex;
+  margin: 5px auto;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+a:hover {
+  background:#33BC7E;
+  border-radius: 8px;
+  align-items: center;
+}
+.side-nav--icon {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.deal-contact-sidenav {
+  
+  margin-top:650px;
+  margin-left: 15px;
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 54px;
+  overflow: hidden;
+  box-sizing: border-box;
+  
+}
+.contact-pic-sidenav{
+  width: 20px;
+  height: 20px;
+}
+
+
