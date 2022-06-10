@@ -20,18 +20,17 @@
 }
 
 .drag {
-  border-right: 1px solid #e0e0e0;
-  border-bottom: 1px solid #e0e0e0;
+ 
   width: 300px;
   right: 60px;
   top: 140px;
-  height: 772px;
+  height: 108px;
+  /* height: 772px;   */
   padding: 3px;
-  border: 1px dashed #000000; 
+ border: 1px dashed #000000;  
   border-radius: 8px;
-  background-color: #fff;
-  margin-top: 15px;
-  
+  background-color: #fff; 
+  /* margin-top: 15px; */
 }
 
 .item {
@@ -40,13 +39,10 @@
   border: 1px solid white;
   padding: 5px;
   border-radius: 2px;
-  
 }
 
 .item.dragging {
-background-color: white;
-
-
+  background-color: white;
 }
 
 .deals-section {
@@ -61,8 +57,6 @@ background-color: white;
   left: 0;
   top: 0;
   opacity: 1;
-  
-  
 }
 
 .ondraggable {
@@ -74,8 +68,10 @@ background-color: white;
   flex-direction: column;
   align-items: flex-start;
   background: white;
-  box-shadow: inset;
+  
   height: 110px;
+  width: 304px;
+  border-radius: 6px;
 }
 
 .name {
@@ -86,14 +82,13 @@ background-color: white;
 
 .deal-card {
   background: white;
-  border-radius: 8px;
-  margin: 10px;
-  padding: 10px 12px;
+  border-radius:10px;
+  margin: 7px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   background: white;
-  height: 108px;
   gap: 6px;
 }
 
@@ -102,8 +97,9 @@ background-color: white;
 }
 
 .price {
+ 
+  padding-bottom: 4px;
   font-size: 13px;
-  margin: 5px 0px;
   display: flex;
   flex-direction: row;
   gap: 7px;
@@ -128,33 +124,42 @@ background-color: white;
   top: 128px;
   height: 800px;
   background: #f4f5f5;
-  box-shadow: inset -1px 0px 0px rgba(0, 0, 0, 0.1);
+  gap: 8px;
+
 }
+/* .deals-column:hover {
+  box-sizing: border-box;
+  width: 304px;
+  height: 800px;
+  top: 100px;
+  background: #ffffff;
+  opacity: 0.8;
+  border: 1px dashed #000000;
+  border-radius: 8px;
+  display: block;
+}  */
 
 .deals-column--header {
   display: flex;
   justify-content: space-between;
   padding: 16px;
   border-right: 1px solid #e0e0e0;
-  border-bottom: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
-  width: 319px;
+  width: 320px;
   height: 70px;
   top: 128px;
   left: 60px;
-  display: flex;
   flex-direction: row;
 }
 
- .sort { 
+.sort {
   left: 54.17%;
   right: 37.5%;
   top: 70.83%;
   bottom: 29%;
-  color: gray;
-
 }
 
 .deals2 {
@@ -182,40 +187,57 @@ background-color: white;
 }
 
 .deal-contact .contact-pic {
-  width: 24px;
+  width: 23px;
   height: 24px;
   left: 0px;
-  margin-top: 3px;
-  
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  
+  margin-top: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 100%;
   overflow: hidden;
-  box-sizing: border-box;
+  box-sizing: content-box;
+  
 }
 .contact-image {
-  width: 23px;
-  height: 23px;
+  width: 24px;
+  height: 24px;
 }
 .deal-contact {
   display: flex;
   gap: 5px;
+  
+  
 }
 .cardcheckbox {
-  display: none;
-  width: 15px;
+
+  display: none; 
+  /* width: 15px;
   height: 20px;
   bottom: -75px;
   border-radius: 3px;
-  margin-top: 10px;
+  margin-top: 10px; 
   margin-left: 50px;
-  margin-bottom: 30px;
-  border: 1.5px solid #000000;
+  margin-bottom: 30px;  */
+  /* border: 1.5px solid #000000; */
+  
+}
+.dc{
+  /* border:2px solid violet; */
+  padding-top: 13px;
 }
 .container {
   display: flex;
-  gap: 150px;
+  gap: 200px;
+  margin-top:-6px;
+  /* border:2px solid blue; */
 }
 .date {
   color: gray;
 }
+.placeholder {
+  position: absolute;
+  border-radius: 8px;
+  border: dashed 1px blue;
+  background-color: white;
+  margin-left: 8px;
+  opacity: 0.6;
+} 

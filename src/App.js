@@ -9,20 +9,20 @@ import Header from "./Header";
 
 const item1 = {
   id: v4(),
-  name: "Benishba",
+  name: "IOS and Android",
   price: "$12,000  •",
   date: "Closing in 2 days",
 };
 
 const item2 = {
   id: v4(),
-  name: "CRM",
+  name: "Mobile Assistance",
   price: "$14,000  •",
   date: "Closing in 4 days",
 };
 const item3 = {
   id: v4(),
-  name: "Valli",
+  name: "Finance Software",
   price: "$16,000  •",
   date: "Closing in 6 days",
 };
@@ -43,43 +43,43 @@ const item5 = {
 
 const item6 = {
   id: v4(),
-  name: "Shivashree",
+  name: "Communication",
   price: "$22,000  •",
   date: "Closing in 12 days",
 };
 const item7 = {
   id: v4(),
-  name: "Kavya",
+  name: "Website Optimization",
   price: "$24,000  •",
   date: "Closing in 14 days",
 };
 const item8 = {
   id: v4(),
-  name: "DeviDurga",
+  name: "Reservation Management",
   price: "$26,000  •",
   date: "Closing in 16 days",
 };
 const item9 = {
   id: v4(),
-  name: "Deepika",
+  name: "Web App",
   price: "$26,000  •",
   date: "Closing in 16 days",
 };
 const item10 = {
   id: v4(),
-  name: "Sathish",
+  name: "HR Management",
   price: "$26,000  •",
   date: "Closing in 16 days",
 };
 const item11 = {
   id: v4(),
-  name: "Aruna",
+  name: "Optimization",
   price: "$26,000  •",
   date: "Closing in 16 days",
 };
 const item12 = {
   id: v4(),
-  name: "Beni",
+  name: "Finance",
   price: "$26,000  •",
   date: "Closing in 16 days",
 };
@@ -232,7 +232,7 @@ function App() {
                                             ))}
                                           </div>
                                           <div id="deal-card">
-                                            <div>
+                                            <div className="dc">
                                               <input
                                                 type="checkbox"
                                                 className="cardcheckbox"
